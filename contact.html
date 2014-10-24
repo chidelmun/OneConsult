@@ -1,0 +1,109 @@
+<html>
+<head>
+
+<style>
+      #map_canvas {
+        width: 1000px;
+        height: 350px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map_canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(3.8709506,11.4846396,15),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+<title>Contacter | OneConsult</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
+
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+
+<body style="background-color: #1327B9;">
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-tabs pull-right">
+          <li class="text-muted"><a href="index.html">Accueil</a></li>
+           <li class="text-muted"><a href="about.html">Apropo</a></li>
+          <li class="text-muted"><a href="project.html">Nos Projets</a></li>
+          <li class="text-muted"><a href="services.html">Services</a></li>
+          <li class="text-muted active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <h2 class="text-muted"><a style="text-decoration:none" href="index.html">OneConsult</a></h2>
+      </div>
+
+      <div style="background-color: #FFF;" class="jumbotron">
+    
+        <div class="jumbotron col-md-4" id="map_canvas"> 
+     </div>
+
+
+       <div class="col-md-4">
+        <strong>Info General</strong>
+        <p> Etoug-Ebe,Yaounde</br>
+          Cameroun
+        </p>
+       </div>
+
+         <div class="col-md-4">
+        <strong>Contact Telephone et Email</strong>
+        <p>Tel: 97028411 - 70701977
+        Email: joel_boade@yahoo.com
+      </p>
+       </div>
+
+         <div class="col-md-4">
+        <strong>Personnes</strong>
+        <p>
+        DG: ESSIMI TIPANE ANGE GABIN</br>
+        DT: Boade Thierry Joel</br>
+        Financier :ENOPA John Desire
+      </p>
+
+       </div>
+
+        <h1 class="text-primary" >BTP,Organisation des entreprises</h1>
+        
+        <p><a class="btn btn-lg btn-primary" href="index.html" role="button">Retour a L'Accueil</a></p>
+      </div>
+
+      
+
+      <div class="row footer">
+       <div class="col-md-4">
+       	<strong>OneConsult 2014</strong>
+       </div>
+
+        <div class="col-md-4">
+        		<strong>OneConsult 2014</strong>
+       </div>
+
+        <div class="col-md-4">
+        		<strong>OneConsult 2014</strong>
+       </div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body>
+
+
+</html>
